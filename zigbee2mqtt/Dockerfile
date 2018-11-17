@@ -7,7 +7,7 @@ ENV LANG C.UTF-8
 ENV ZIGBEE2MQTT_VERSION=0.2.0
 ENV ARCHIVE=zigbee2mqtt-$ZIGBEE2MQTT_VERSION
 
-RUN apk add --update --no-cache curl jq nodejs nodejs-npm python3 python3-dev \
+RUN apk add --update --no-cache curl jq nodejs nano nodejs-npm python3 python3-dev \
         python2 make gcc g++ linux-headers udev git && \
         pip3 install PyYAML
         
