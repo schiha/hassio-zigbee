@@ -1,5 +1,5 @@
 {
-  "name": "Zigbee2mqtt Hass.io Add-on",
-  "url": "https://github.com/schiha/hassio-zigbee2mqtt",
+  "name": "Zigbee MQTT Bridge - Hass.io Add-on",
+  "url": "https://github.com/schiha/hassio-zigbee",
   "maintainer": "Johannes Kluge <github@digbox.de>"
 }
